@@ -1,0 +1,121 @@
+/* Intro section----------------------------------------------- */
+
+.intro-text-section h1{
+    font-size: xx-large;
+    color: grey;
+}
+.intro-text-section li{
+    color: grey;
+}
+.intro-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 60px 0px;
+    background-color: azure;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.intro-section:hover {
+    background-color: burlywood;
+}
+.intro-image-section img{
+    width: 200px;
+    height: 280px;
+}
+/* AboutMe---------------------------------------------------------------------- */
+.AboutMe-text-section h1{
+    font-size: xx-large;
+}
+.AboutMe-text-section p{
+    color: grey;
+}
+.AboutMe-text-section{
+    width: 500px;
+}
+.AboutMe-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 60px 0px;
+    background-color: beige;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.AboutMe-section:hover {
+    background-color: aqua;
+}
+.AboutMe-image-section img{
+    width: 200px;
+    height: 300px;
+}
+
+/* whatIDo Section---------------------------------------------------------------- */
+.whatIDo-section{
+    margin: 60px 0px;
+    background-color: lavenderblush;
+    padding: 30px 12px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.whatIDo-section:hover {
+    background-color: darkgrey;
+}
+.whatIDo-card-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+.whatIDo-card-section div{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 350px;
+    height: 170px;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.whatIDo-card-section:hover {
+    background-color: bisque;
+}
+
+
+@media only screen and (max-width: 620px) {
+
+    .intro-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .AboutMe-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .AboutMe-text-section {
+        font-size: medium;
+    }
+
+    .whatIDo-section{
+        margin: 30px 20px;
+        background-color: lavenderblush;
+        padding: 30px 12px;
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    .whatIDo-card-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+}
+
+body{
+    margin: 10px 10px;
+}
+
+/* Copy-write-section------------------------------------------------------------------ */
+.Copy-write-section{
+    color: grey;
+}
